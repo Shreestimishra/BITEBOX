@@ -1,0 +1,20 @@
+/*property-name : value */
+ol
+{
+background-color: rgb(255, 227, 47);
+}
+
+ol li 
+{
+    background-color: rgb(180, 93, 247);
+    margin: 10px;
+    text-decoration: overline red
+}
+h1
+{ 
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 25px;
+    height: 50px;
+    box-sizing: content-box;
+} 
