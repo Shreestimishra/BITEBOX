@@ -44,6 +44,82 @@ nav div li:last-child a{
     text-decoration: underline red double;
 }
 
+.hero
+{
+    height: 90vh ;
+    background-image: url(../images/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white ;
 
+}
 
+.hero button
+{
+    background-color: rgb(230, 19, 19);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:  10px;
+    margin: top 15px; 
+    cursor: pointer;
 
+}
+.hero button :hover
+{
+    background-color: brown;
+}
+.video
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+}
+.video text{
+    flex: 1;
+}
+
+.video-box{
+    flex: 1
+}
+
+.video-box video{
+
+    width: 10px; 
+    border-radius: 25px;
+}
+
+.video-text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.video-text p{
+    font-size: 18px;
+    color: black;
+}
+.about{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 60px 20px;
+    background-color: white;
+}
+ .about h2{
+    font-size: 25px;
+    margin-bottom:20px ;
+    background-color: red ;
+
+ }
+
+ .about p{
+max-width: 700px; 
+background-color: aqua;
+ line-height: 1.6;
+color: red;
+font-size: 14px;
+ }
