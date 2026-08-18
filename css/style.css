@@ -289,3 +289,73 @@ tbody tr{
     min-width: 20px;
     text-align: center;
  }
+
+
+ 
+
+ .auth-container {
+    height:100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(103, 189, 232), white, pink);
+ }
+
+ .auth-box {
+
+background: rgb(194, 199, 254);
+padding: 30px;
+border-radius: 20px;
+width: 320px;
+text-align: center;
+box-shadow: 0 8px 25px gold;
+
+ }
+
+ .auth-box h2{
+    color: black;
+    margin-bottom: 20px;
+
+ }
+
+ .auth-box input {
+    width: 100%;
+    padding: 12px;
+    /* top-botton and left and right */
+    margin: 10px 0;
+    border: 1px solid #156ed3;
+    border-radius:5pc ;
+     outline: none; 
+
+ }
+
+ .auth-box input:focus {
+    border-color: red;
+ }
+
+ .auth-box button{
+width: 100%;
+padding: 10px;
+background-color: rgb(205, 123, 192);
+color: white;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;
+
+ }
+
+ .auth-box button:hover {
+    background-color: darkred;
+ }
+
+ .auth-box p {
+    margin-top: 15px;
+    font-size: 14px;
+ }
+
+ .auth-box a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+ }
